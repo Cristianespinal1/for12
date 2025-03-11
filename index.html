@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="for.css">
+    <title>Formulatiio</title>
+</head>
+<body>
+    <form method="post" action="/send" class="form">
+        <h4>FORMULARIO </h4>
+        <br>
+        <label  for="nombre">Nombre: </label>
+        <input class="ctr" type="text" name="username" placeholder="por ejemplo, Ana" minlength="3" maxlength="40" id="nombre" required>
+       <br>
+        <label  for="correo">Correo:  </label>
+        <input class="ctr" type="email" name="correo "placeholder="ana@gmail.com" id="correo" required>
+       <br>
+        <label   for="edad">Edad:   </label>
+        <input class="ctr" type="number"name="edad" placeholder="25" max="50" min="15" id="edad" required step="2">
+       <br>
+        <label   for="matricula">Matricula:</label>
+        <input class="ctr" type="file" name="matricula" id="matricula" placeholder="archivo" required>
+       <br>
+        <label  for="telefono">Telefono: </label>
+        <input class="ctr" type="tel" name="telefono" id="telefono" minlength="8" maxlength="10"  required>
+       <br>
+        <input class="boot" type="submit" value="Enviar"> 
+
+
+    </form>
+
+</body>
+</html>
